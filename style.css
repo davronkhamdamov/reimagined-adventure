@@ -1,0 +1,25 @@
+* {
+    scroll-behavior: smooth;
+}
+
+div {
+    width: 1440px;
+    height: 500px;
+    background: red;
+    overflow-x: scroll;
+}
+
+div::-webkit-scrollbar {
+    height: 100px;
+    background-color: blue;
+}
+
+div::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+    background-color: green;
+}
+
+section {
+    width: 15555px;
+    display: flex;
+}
